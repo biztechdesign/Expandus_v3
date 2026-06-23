@@ -308,7 +308,7 @@ ul{list-style:none}
 .rdt__stage--chasm:hover{background:#fcd5d6}
 .rdt__stage__n{width:32px;height:32px;border-radius:50%;background:var(--plum);color:#fff;font-family:var(--font-h);font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 8px}
 .rdt__stage--chasm .rdt__stage__n{background:var(--coral)}
-.rdt__stage__name{font-family:var(--font-h);color:var(--plum);letter-spacing:.06em;line-height:1.25;text-align:center;display:flex;align-items:flex-start;justify-content:center}
+.rdt__stage__name{font-family:var(--font-h);color:var(--plum);letter-spacing:.06em;line-height:1.25;text-align:center;display:flex;align-items:flex-start;justify-content:center;min-height:60px}
 .rdt__stage--chasm .rdt__stage__name{color:var(--coral)}
 .rdt__org{width:100%;height:120px;margin:30px 0;object-fit:cover;display:block}
 .rdt__stage__lead{font-family:var(--font-body);font-size:16px;font-weight:400;color:var(--plum);line-height:var(--lh-body);margin-bottom:8px;text-align:center}
@@ -377,14 +377,14 @@ ul{list-style:none}
    WHAT WE DO
 â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 /* What We Do */
-.wwd__layout{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:stretch;margin-bottom:56px}
+.wwd__layout{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;margin-bottom:56px}
 .wwd__left{position:relative;display:flex;flex-direction:column}
-.wwd__imgs{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:14px;height:100%;min-height:340px}
+.wwd__imgs{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .wwd__col{display:flex;flex-direction:column}
-.wwd__col--left{height:100%;gap:12px}
-.wwd__col--left .wwd__img-wrap{flex:0 0 66%}
-.wwd__col--right{height:100%;position:relative;justify-content:flex-end}
-.wwd__col--right .wwd__img-wrap{height:71%;flex:none}
+.wwd__col--left{gap:12px}
+.wwd__col--left .wwd__img-wrap{height:343px;flex:none}
+.wwd__col--right{position:relative;justify-content:flex-end}
+.wwd__col--right .wwd__img-wrap{height:383px;flex:none}
 .wwd__img-wrap{border-radius:20px;overflow:hidden;flex:1;min-height:0}
 .wwd__img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
 .wwd__stat-card{background:var(--plum);border-radius:16px;padding:16px 20px;flex:0 0 auto;display:flex;flex-direction:column;justify-content:center}
